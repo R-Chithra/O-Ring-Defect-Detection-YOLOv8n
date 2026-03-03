@@ -4,7 +4,7 @@ Edge-deployable industrial O-ring defect detection system using YOLOv8n.
 
 ## 📌 Project Overview
 
-This project implements a deep-learning-based automated inspection system for detecting surface defects in industrial O-rings.
+This project implements a machine-learning-based automated inspection system for detecting surface defects in industrial O-rings.
 
 The system:
 - Trains a lightweight YOLOv8n model
@@ -26,25 +26,27 @@ The model detects four classes:
 ---
 
 ## 🏗 Project Structure
+
+```
 O-Ring-Defect-Detection-YOLOv8n/
 │
 ├── train/
-│ └── train.py
+│   └── train.py
 │
 ├── inference/
-│ └── realtime_inference.py
+│   └── realtime_inference.py
 │
 ├── configs/
-│ └── data.yaml
+│   └── data.yaml
 │
 ├── results/
+│
 ├── sample_images/
+│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
-
----
+```
 
 ## 🚀 Training
 
