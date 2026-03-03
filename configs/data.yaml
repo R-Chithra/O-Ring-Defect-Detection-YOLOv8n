@@ -1,0 +1,13 @@
+path: ../dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
+
+names:
+  0: Good
+  1: Cut
+  2: Flash
+  3: Flow-mark
